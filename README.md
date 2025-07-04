@@ -1,5 +1,7 @@
 # 🧠 AWS Infra Explainer
 
+💬 Chat with your AWS Infrastructure | 🧠 Local LLMs + Embeddings | 📊 Visual Summaries | 📄 PDF/HTML Reports
+
 A Streamlit-powered app that lets you **analyze and chat with your AWS infrastructure** using local LLMs like Ollama.
 
 ## 🔧 Features
