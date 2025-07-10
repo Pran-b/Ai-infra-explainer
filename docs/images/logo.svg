@@ -1,0 +1,7 @@
+<!-- This is a placeholder for the main application logo -->
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="100" fill="#232F3E"/>
+  <text x="100" y="35" text-anchor="middle" fill="#FF9900" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AWS Infrastructure</text>
+  <text x="100" y="55" text-anchor="middle" fill="#FF9900" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Explainer</text>
+  <text x="100" y="75" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="12">🧠 AI Powered</text>
+</svg>

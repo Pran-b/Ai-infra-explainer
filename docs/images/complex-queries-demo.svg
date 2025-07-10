@@ -1,0 +1,60 @@
+<!-- Placeholder for Complex Queries Demo Screenshot -->
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="#673AB7"/>
+  <text x="20" y="35" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">🎯 Complex Query Processing</text>
+  
+  <!-- Quick Query Buttons -->
+  <rect x="20" y="80" width="150" height="40" fill="#1976D2" stroke="#1565C0" stroke-width="1"/>
+  <text x="95" y="105" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Running EC2s</text>
+  
+  <rect x="180" y="80" width="150" height="40" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+  <text x="255" y="105" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Cost Analysis</text>
+  
+  <rect x="340" y="80" width="150" height="40" fill="#F57C00" stroke="#EF6C00" stroke-width="1"/>
+  <text x="415" y="105" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Security Audit</text>
+  
+  <!-- Query Input -->
+  <rect x="20" y="140" width="760" height="40" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="30" y="165" fill="#333" font-family="Arial, sans-serif" font-size="14">SELECT instances, security_groups FROM ec2 WHERE state = 'running'</text>
+  
+  <!-- Visualizations -->
+  <rect x="20" y="200" width="360" height="180" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="30" y="225" fill="#1565C0" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📊 Instance Distribution</text>
+  <rect x="30" y="240" width="100" height="20" fill="#4CAF50"/>
+  <text x="140" y="255" fill="#333" font-family="Arial, sans-serif" font-size="12">t3.medium: 3 instances</text>
+  <rect x="30" y="265" width="80" height="20" fill="#FF9800"/>
+  <text x="120" y="280" fill="#333" font-family="Arial, sans-serif" font-size="12">t3.large: 2 instances</text>
+  <rect x="30" y="290" width="40" height="20" fill="#F44336"/>
+  <text x="80" y="305" fill="#333" font-family="Arial, sans-serif" font-size="12">t3.small: 1 instance</text>
+  
+  <rect x="400" y="200" width="360" height="180" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="410" y="225" fill="#1565C0" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🔒 Security Analysis</text>
+  <text x="410" y="250" fill="#333" font-family="Arial, sans-serif" font-size="12">Open ports: 22, 80, 443</text>
+  <text x="410" y="270" fill="#333" font-family="Arial, sans-serif" font-size="12">Restricted: 3306, 5432</text>
+  <text x="410" y="290" fill="#333" font-family="Arial, sans-serif" font-size="12">Most permissive: sg-web-prod</text>
+  <text x="410" y="310" fill="#2E7D32" font-family="Arial, sans-serif" font-size="12">✅ Overall security: Good</text>
+  
+  <!-- Export Options -->
+  <rect x="20" y="400" width="100" height="30" fill="#1976D2" stroke="#1565C0" stroke-width="1"/>
+  <text x="70" y="420" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">📄 JSON</text>
+  
+  <rect x="130" y="400" width="100" height="30" fill="#388E3C" stroke="#2E7D32" stroke-width="1"/>
+  <text x="180" y="420" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">📊 CSV</text>
+  
+  <rect x="240" y="400" width="100" height="30" fill="#F57C00" stroke="#EF6C00" stroke-width="1"/>
+  <text x="290" y="420" fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">📝 Markdown</text>
+  
+  <!-- Results Preview -->
+  <rect x="20" y="450" width="760" height="130" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1"/>
+  <text x="30" y="475" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔍 Detailed Results</text>
+  <text x="30" y="495" fill="#666" font-family="Arial, monospace" font-size="10">{</text>
+  <text x="30" y="510" fill="#666" font-family="Arial, monospace" font-size="10">  "instances": [</text>
+  <text x="30" y="525" fill="#666" font-family="Arial, monospace" font-size="10">    {</text>
+  <text x="30" y="540" fill="#666" font-family="Arial, monospace" font-size="10">      "id": "i-0123456789abcdef0",</text>
+  <text x="30" y="555" fill="#666" font-family="Arial, monospace" font-size="10">      "name": "web-server-prod",</text>
+  <text x="30" y="570" fill="#666" font-family="Arial, monospace" font-size="10">      "type": "t3.medium"</text>
+</svg>
